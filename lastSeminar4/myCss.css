@@ -1,0 +1,212 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-nov-13, 20:43:36
+    Author     : norash1995
+*/
+
+*{box-sizing: border-box;}
+            ul {list-style-type: none;}
+            body {
+                font-family: Verdana, sans-serif;
+                background-color: #FFFFFF;
+                font-size: 100%;
+                padding: 50px;
+            }
+            .navbar{
+                
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                overflow: hidden;
+                background: #DAF7A6;
+                list-style-type: none;
+            }
+            .navbar1{
+                color: #333;
+                display: inline-block;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                transition: 0.3s;
+            }
+            .headMain{
+                text-align: left;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                font-variant: normal;
+                
+            }
+            .headRecipe{
+                text-align: left;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 30px;
+                font-variant: normal;
+            }
+            .head{
+                text-align: left;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                font-variant: normal;
+            }
+            .image{
+                height: 350px;
+                width: 500px;
+                
+                
+            }
+            .imageSummary{
+                text-align: left;
+                font-style: oblique;
+                font-weight: lighter;
+                font-size: 10px;
+                font-variant: normal;
+                
+            }
+            .cookingDetails{
+                text-align: left;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 15px;
+                font-variant: normal;
+                background-color: #ADFF2F;
+            }
+            
+            /**tables**/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+.commentUser{
+    text-align: left;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 17px;
+                font-variant: normal;
+               
+}
+.comment{
+     text-align: left;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 15px;
+                font-variant: normal;
+}
+            .month {
+                padding: 70px 25px;
+                width: 100%;
+                background-color: #1abc9c;
+            }
+            .month ul{
+                margin: 0;
+                padding: 0;
+            }
+            .month ul li{
+                color: white;
+                font-size: 20px;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
+            .month .prev{
+                float: left;
+                padding-top: 10px;
+            }
+            .month .next{
+                float: right;
+                padding-top: 10px;
+            }
+            .weekdays{
+                margin: 0;
+                padding: 10px 0;
+                background-color: #ddd;
+            }
+            .weekdays li{
+                display: inline-block;
+                width: 13.6%;
+                color: #666;
+                text-align: center;
+            }
+            .days{
+                padding: 10px 0;
+                background: #eee;
+                margin: 0;
+
+            }
+            .days li{
+                list-style-type: none;
+                display: inline-block;
+                width: 13.6%;
+                text-align: center;
+                margin-bottom: 10px;
+                padding-bottom: 150px;
+                font-size: 12px;
+                color: #777;
+                                
+
+                
+            }
+            .chosenday{
+                background-image: url("images-3.jpeg");
+            }
+            .chosenday2{
+                background-image: url("images.jpeg");
+            }
+            .days li span{
+                padding: 5px;
+                background: #1abc9c;
+                color: white;
+                
+            }
+            .backgroundPicture{
+                height: 100%;
+                width: 100%;
+            }
+            .calendarPromotion{
+                color: white;
+               
+                text-align: left;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                font-variant: normal;
+                
+                
+            }
+            .bodyRecipe{
+                background-image: url("caipirinha-hd-pic-1231821756.jpg")
+            }
+            .headMainRecipes{
+                margin-top: 1px;
+                text-align: left;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 50px;
+                font-variant: normal;
+                color: white;
+            }
+            
+            .contact-delete{
+                padding-left: 100px;
+                color: green;
+                text-align: left;
+            }
+         
